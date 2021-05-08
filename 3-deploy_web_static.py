@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Tar, transfer, and deploy static html to webservers"""
+""" Made by Facundo Diaz and Chloe Dumit for Holberton School 2021 """
 
 from fabric import api, decorators
 from fabric.contrib import files
