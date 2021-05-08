@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-# Script using bash to setup webservers for deployment of simple HTML
-# content
+# Made by Facundo Diaz and Chloe Dumit for Holberton School 2021
 
 apt-get update && \
 apt-get install -y nginx && \
