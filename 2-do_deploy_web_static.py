@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Deploy an archive of static html to my web servers with Fabric3"""
+""" Made by Facundo Diaz and Chloe Dumit for Holberton School 2021 """
 
 from fabric import api
 from fabric.contrib import files
@@ -12,13 +12,7 @@ api.env.key_filename = '~/.ssh/holberton'
 
 
 def do_deploy(archive_path):
-    """Function to transfer `archive_path` to web servers.
-
-    Args:
-        archive_path (str): path of the .tgz file to transfer
-
-    Returns: True on success, False otherwise.
-    """
+    """ do deploy function """
     if not os.path.isfile(archive_path):
         return False
     with api.cd('/tmp'):
