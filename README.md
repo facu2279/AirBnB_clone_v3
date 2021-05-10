@@ -155,7 +155,7 @@ No known bugs at this time.
 
 ## Authors
 Facundo Diaz - [Github](https://github.com/facu2279)  
-Chloe Dumit - [Github](https://github.com/ChloeDumit)
+Chloé Dumit - [Github](https://github.com/ChloeDumit)
 
 ## License
 Public Domain. No copy write protection. 
